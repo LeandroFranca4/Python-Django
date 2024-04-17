@@ -261,6 +261,21 @@ h6 {
     filter: brightness(2.5);
 }
 
+
+
+.main-content-detail    .recipe-list-item {
+        max-width: 840px;
+        border-radius: 4px;
+    }
+    
+.main-content-detail    .recipe-list-item:hover {
+        transform: scale(1);
+        box-shadow: -5px 5px 15px rgba(0, 0, 0, .2);
+    }
+    
+    
+
+
 .main-footer {
     justify-content: space-between;
     align-items: center;
