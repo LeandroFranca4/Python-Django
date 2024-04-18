@@ -1,6 +1,4 @@
-
-
-
+        
 :root {
     --color-primary: #269fe6;
     --color-primary-hover: #2086c2;
@@ -171,7 +169,7 @@ h6 {
 }
 
 
-.recipe {
+ .main-content-detail .recipe {
     background: var(--color-white);
     box-shadow: -5px 5px 10px rgba(0, 0, 0, .5);
 
@@ -266,11 +264,13 @@ h6 {
 .main-content-detail    .recipe-list-item {
         max-width: 840px;
         border-radius: 4px;
+        background-color: yellow;
     }
     
 .main-content-detail    .recipe-list-item:hover {
         transform: scale(1);
         box-shadow: -5px 5px 15px rgba(0, 0, 0, .2);
+        background-color: yellow;
     }
     
     
