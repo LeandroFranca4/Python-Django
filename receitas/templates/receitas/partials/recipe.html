@@ -9,11 +9,11 @@
     <div class="recipe-author">
         <span class="recipe-author-item">
             <i class="fa-solid fa-user"></i>
-            Leandro França
+            {{receita.author.first_name}}  {{receita.author.last_name}}
         </span>
         <span class="recipe-author-item">
             <i class="fa-solid fa-calendar-days"></i>
-            25/03/2024
+            {{receita.created_at}}
         </span>
         <span class="recipe-author-item" >
             <a href="/recipe/category/cafe-da-manha/">
@@ -39,7 +39,7 @@
         <div class="recipe-meta recipe-servigs">
             <h3 class="recipe-meta-title"><i class="fa-solid fa-pizza-slice"></i> Porção</h3>
             <div class="recipe-meta-text">
-                    10 Porções
+                    {{receita.servings}}
             </div>
         </div>  
     </div>

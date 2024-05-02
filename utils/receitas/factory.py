@@ -8,14 +8,14 @@ fake = Faker ('pt_BR')
 
 def make_recipe():
     return{
-        'title' : fake.sentence(nb_words=6),
+        'title' : fake.sentence(nb_words=3),
         'description' : fake.sentence(nb_words=12),
         'preparation_time' : fake.random_number(digits=2, fix_len=True),
         'preparation_time_unit': 'Minutos',
         'servings': fake.random_number(digits=2, fix_len=True),
         'servings_unit' : 'Porção',
         'preparation_steps': fake.text(3000),
-        'created-at' : fake.date_time(),
+        'created_at' : fake.date_time(),
         'author' : {
             'first_name': fake.first_name(),
             'last_name' : fake.last_name(),
